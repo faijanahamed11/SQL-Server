@@ -464,12 +464,12 @@ FROM sales.employees;
 SELECT 
 	firstname,
     lastname
-FROM sales.customers
+FROM sales.employees
 EXCEPT
 SELECT 
 	firstname,
     lastname
-FROM sales.employees;
+FROM sales.customers;
 
 -- Find the data from the employees who are also customers.
 SELECT 
