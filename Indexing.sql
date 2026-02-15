@@ -117,7 +117,7 @@ LEFT JOIN sys.dm_db_index_usage_stats s
     AND s.index_id = idx.index_id
 ORDER BY tbl.name, idx.name;
 
--- IMPORTANT
+-- IMPORTANT (To check the Index Usage)
 SELECT 
     tbl.name AS TableName,
     idx.name AS IndexName,
