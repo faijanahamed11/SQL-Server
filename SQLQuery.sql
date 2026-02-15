@@ -140,7 +140,7 @@ SELECT TOP 2*
 FROM orders
 ORDER BY order_date DESC;
 
-/* Create a new column called Persons
+/* Create a new table called Persons
 with columns: id, person_name, birth_date, and phone
 */
 
@@ -191,7 +191,7 @@ SET score = 0,
 	country = 'UK'
 WHERE id = 4;
 
--- Update all custoemers with a NULL score by setting their score to 0
+-- Update all customers with a NULL score by setting their score to 0
 UPDATE customers 
 SET score = 0
 WHERE score IS NULL;
